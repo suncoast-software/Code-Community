@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code_Community.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Code_Community.Models
         public int PostId { get; set; }
 
         public string UserId { get; set; }
+        public int CategoryId { get; set; }
 
         [Required]
         [StringLength(500, ErrorMessage = "Title is Required!")]

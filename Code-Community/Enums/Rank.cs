@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Code_Community.Models
+namespace Code_Community.Enums
 {
     public enum Rank
     {
